@@ -33,12 +33,22 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>LoRaWAN_End_Node.ioc</name>
+			<name>LoRaWAN_End_Node/Core</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Core</locationURI>
+		</link>
+		<link>
+			<name>LoRaWAN_End_Node/LoRaWAN</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/LoRaWAN</locationURI>
+		</link>
+		<link>
+			<name>LoRaWAN_End_Node/LoRaWAN_End_Node.ioc</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/LoRaWAN_End_Node.ioc</locationURI>
 		</link>
 		<link>
-			<name>Doc/readme.txt</name>
+			<name>LoRaWAN_End_Node/readme.txt</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/readme.txt</locationURI>
 		</link>
@@ -81,11 +91,6 @@
 			<name>Utilities/stm32_tiny_vsnprintf.c</name>
 			<type>1</type>
 			<locationURI>PARENT-6-PROJECT_LOC/Utilities/misc/stm32_tiny_vsnprintf.c</locationURI>
-		</link>
-		<link>
-			<name>Drivers/CMSIS/system_stm32wlxx.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/system_stm32wlxx.c</locationURI>
 		</link>
 		<link>
 			<name>Drivers/STM32WLxx_HAL_Driver/stm32wlxx_hal.c</name>
@@ -378,91 +383,6 @@
 			<locationURI>PARENT-6-PROJECT_LOC/Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.c</locationURI>
 		</link>
 		<link>
-			<name>Application/User/Core/adc.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/adc.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/Core/adc_if.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/adc_if.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/Core/dma.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/dma.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/Core/flash_if.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/flash_if.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/Core/gpio.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/gpio.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/Core/main.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/main.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/Core/rtc.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/rtc.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/Core/stm32_lpm_if.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/stm32_lpm_if.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/Core/stm32wlxx_hal_msp.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/stm32wlxx_hal_msp.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/Core/stm32wlxx_it.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/stm32wlxx_it.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/Core/subghz.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/subghz.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/Core/sys_app.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/sys_app.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/Core/sys_debug.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/sys_debug.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/Core/sys_sensors.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/sys_sensors.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/Core/timer_if.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/timer_if.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/Core/usart.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/usart.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/Core/usart_if.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/usart_if.c</locationURI>
-		</link>
-		<link>
 			<name>Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.c</name>
 			<type>1</type>
 			<locationURI>PARENT-6-PROJECT_LOC/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.c</locationURI>
@@ -471,31 +391,6 @@
 			<name>Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.c</name>
 			<type>1</type>
 			<locationURI>PARENT-6-PROJECT_LOC/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/LoRaWAN/App/CayenneLpp.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/LoRaWAN/App/CayenneLpp.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/LoRaWAN/App/app_lorawan.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/LoRaWAN/App/app_lorawan.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/LoRaWAN/App/lora_app.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/LoRaWAN/App/lora_app.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/LoRaWAN/App/lora_info.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/LoRaWAN/App/lora_info.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/LoRaWAN/Target/radio_board_if.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/LoRaWAN/Target/radio_board_if.c</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
